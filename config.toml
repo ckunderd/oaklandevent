@@ -1,3 +1,131 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Page settings
+
+baseURL = "http://oaklandevent.net/"
+languageCode = "en"
+title = "Oakland Event and Logistics"
+theme = "hugo-business-frontpage-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
+
+
+
+
+
+
+[params]
+    author = "Cameron Underdown"
+    description = "Oakland Event"
+
+
+
+
+
+
+    [params.navbar]
+        name = "Oakland Event and Logistics"
+        #[[params.navbar.nav]]
+        #current = true
+        #name = "Home"
+        #url = "#"
+        #[[params.navbar.nav]]
+        #name = "About"
+        #url = "#"
+        #[[params.navbar.nav]]
+        #name = "Services"
+        #url = "#"
+        #[[params.navbar.nav]]
+        #name = "Contact"
+        #url = "#"
+
+
+
+
+
+
+    [params.header]
+        name = "We get metro Detroit moving!"
+        tagline = "Full event planning and logistical services for personal and small business needs."
+
+
+
+
+
+
+    [params.summary]
+        url = "tel:2486290663"
+
+        [params.summary.description]
+
+        [[params.summary.description.items]]
+        description = "At Oakland Event and Logistics, we know that your events matter. Whether weddings, holiday experiences, or large scale gatherings, we know how to create memorable experiences and handle the logistics behind them from beginning to end."
+        [[params.summary.description.items]]
+        description = "With over a decade of event planning and logistical experience and over 500 events in our portfolio, you can trust Oakland Event and Logistics to help you think through and execute your event while creating unforgettable memories."
+
+
+        [params.summary.contact]
+        name = "Oakland Event and Logistics"
+        address1 = "PO Box 210997"
+        address2 = "Auburn Hills, MI 48321"
+        phone = "248-629-0663"
+        email = "cam@oaklandevent.net"
+
+
+
+
+
+
+    [params.projects]
+
+        [[params.projects.sections]]
+         title = "Our Services"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 1"
+
+        [[params.projects.sections.rows.items]]
+        title = "Weddings"
+        description = "We do day-of coordination of local weddings, from setup and teardown to working with vendors, audio visual equipment, and even ceremony coordination."
+        url = "#"
+        image = "weddings.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Retreats"
+        description = "We can handle full retreat and getaway planning for groups from 20 to 500, including coordination of activities, food, and transportation."
+        url = "#"
+        image = "retreats.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Corporate Events"
+        description = "We are able to coordinate large scale events for your company, faith-based organization, or school, no matter the age. We coordinate travel, ticketing, food, and more."
+        url = "#"
+        image = "cover_tigers.jpg"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 2"
+
+        [[params.projects.sections.rows.items]]
+        title = "Holiday Parties"
+        description = "We are able to build memorable holiday parties for any size group, whether 30 or 300. We know how to handle catering, activities, decor, and more."
+        url = "#"
+         image = "events_7.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Theme Parties"
+        description = "Costume parties, masquerade balls, murder mystery dinners - you name it, and we can plan and execute it. We have thrown dozens of theme parties with great success."
+        url = "#"
+     image = "events_5.jpg"
+
+     [[params.projects.sections.rows.items]]
+        title = "DJ Services"
+        description = "Lighting, audio visual equipment, and decor is just the start. We at Oakland Event have been DJing events for over a decade in a variety of venues."
+        url = "#"
+     image = "dj.jpg"
+
+
+
+
+
+
+
+    [params.footer]
+        copyright = "Oakland Event and Logisics, LLC. All rights reserved."
+
+
+
