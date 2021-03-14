@@ -6,3 +6,5 @@
 body {
   padding-top: 56px;
 }
+header{background: url(../images/cover_tigers.jpg) rgba(0,0,0,0.7) bottom center; background-size: cover; height: 100vh; background-blend-mode: multiply;}
+.bg-primary {background-color: #rgba(0,0,0,0.7) !important;}
