@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://oaklandevent.net/"
+baseURL = "https://oaklandevent.net/"
 languageCode = "en"
 title = "Oakland Event and Logistics"
 theme = "hugo-business-frontpage-theme"
